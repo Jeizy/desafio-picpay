@@ -1,37 +1,31 @@
 body {
-    background-color: #50d67b;
+  background-color: #50d67b;
+}
+
+* {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.menu {
-    display: flex;
-    
-
-}
-
-.listamenu {
-    display: flex;
-    list-style-type: none;
-}
-
 .btn {
-    background-color: #426dff;
-    border-radius: 25px;
-    color: white;
-    height: 46px;
-    width: 144px;
-    font-weight: bold;
-    text-transform: uppercase;
-
+  background-color: #426dff;
+  border-radius: 25px;
+  color: white;
+  height: 46px;
+  width: 144px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-.menuprincipal {
-    display: flex;
-    justify-content: space-between;
-
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
 }
 
-.navbar {
-  display: flex;  
-  align-items: center;
+.navbar-nav {
+  margin-right: 20px !important;
+}
+
+.nav-link,
+a:hover {
+  color: #fff;
 }
